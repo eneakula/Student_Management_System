@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Button Styles */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.create-button {
+    margin: 20px 0;
+}
+
+/* Search Bar Styles */
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.search-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-container button:hover {
+    background-color: #218838;
+}
+
+/* Form Styles */
+.form-container {
+    width: 400px; /* Increased width */
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    padding: 30px; /* More padding for a spacious feel */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    font-size: 18px; /* Slightly larger labels */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px; /* Add some spacing below labels */
+    color: #333;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px; /* More padding for larger fields */
+    margin-bottom: 20px; /* More spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size for better readability */
+}
+
+.form-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 15px; /* Larger buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Slightly larger font */
+    width: 100%; /* Button spans the form width */
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+/* Cancel Button */
+.cancel-button {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 15px; /* Larger cancel button */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; /* Slightly larger font */
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Button spans the form width */
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+}
